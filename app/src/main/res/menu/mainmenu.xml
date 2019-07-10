@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/emotionMenuItem"
+        android:onClick="detectEmotion"
+        android:title="@string/main_menu_emotion" />
+    <item
+        android:id="@+id/weatherMenuItem"
+        android:onClick="showWeather"
+        android:title="@string/main_menu_weather" />
+    <item
+        android:id="@+id/calendarMenuItem"
+        android:onClick="displayCalendar"
+        android:title="@string/main_menu_calendar" />
+    <item
+        android:id="@+id/transportationMenuItem"
+        android:onClick="transportation"
+        android:title="@string/main_menu_transportation" />
+</menu>
